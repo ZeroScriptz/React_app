@@ -37,12 +37,17 @@ const Background = () => {
                 Letter :
                 <input className="text-black py-12" type='text' name='text' onSubmit={() => {}}/>
             </label>
+            
           </form>
+          <button className='bg-[#2952e3] my-2 py-2 px-7 text-white mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]'>
+                RSVP NOW!
+          </button>
           </div>
         </div>
       </div>
         
     </div>
+
 
 </div>
     )
