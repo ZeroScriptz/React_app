@@ -24,16 +24,16 @@ const Background = () => {
           <img 
           src={frontpg} alt="frontpg" className=" rounded-full w-48 cursor-pointer py-4 "
           />
-          <form>
-            <label className='text-2xl text-white'>
+          <form className='flex flex-col justify-center items-center my-8'>
+            <label className='my-4 text-2xl text-white'>
                 Name :
                 <input className="text-black" type='text' name='text' placeholder='Name...' />
             </label>
-            <label className='text-2xl text-white'>
+            <label className=' my-4 text-2xl text-white'>
                 Email :
-                <input className="text-black" type='text' name='text' onSubmit={() => {}}/>
+                <input className=" text-black" type='text' name='text' onSubmit={() => {}}/>
             </label>
-            <label className='text-2xl text-white'>
+            <label className='text-2xl my-4 text-white'>
                 Letter :
                 <input className="text-black py-12" type='text' name='text' onSubmit={() => {}}/>
             </label>
