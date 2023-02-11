@@ -31,11 +31,11 @@ const Background = () => {
             </label>
             <label className=' my-4 text-2xl text-white'>
                 Email :
-                <input className=" text-black" type='text' name='text' onSubmit={() => {}}/>
+                <input className=" text-black"  type="email" placeholder="Email..."  name='text' onSubmit={() => {}}/>
             </label>
             <label className='text-2xl my-4 text-white'>
                 Letter :
-                <input className="text-black py-12" type='text' name='text' onSubmit={() => {}}/>
+                <input className="text-black py-12" placeholder="Letter to us?!" type='text' name='text' onSubmit={() => {}}/>
             </label>
             
           </form>
